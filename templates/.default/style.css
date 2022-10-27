@@ -1,0 +1,74 @@
+#calendar .fc-toolbar-title {
+    font-size: 16px;
+}
+
+.fc-toolbar-title {
+    text-transform: capitalize;
+}
+
+.fc-event-time {
+    display: none;
+}
+.absence-day {
+    position: relative;
+}
+
+.absence-day .fc-event-title {
+    color: #fff;
+}
+
+.fc-timeline-slot {
+    background-color: #6aa650;
+}
+
+.fc-widget-content>div {
+    min-height: 100px;
+}
+
+.fc-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/** ДНИ СОБЫТИЙ ВСТРЕЧ **/
+
+.day-class_event {
+    background-color: #a4c0f0!important;
+}
+
+.event-cell {
+    overflow: hidden;
+    white-space: normal!important;
+    color: #000;
+    display: inline-block;
+    padding: 2px;
+    cursor: pointer;
+    max-height: 95px;
+}
+
+.event-cell:hover {
+    color: #333;
+}
+
+.fc-event .fc-bg {
+    background-color: transparent!important;
+}
+
+/** ДНИ ОТСУТСТВИЯ **/
+.absence-day {
+    position: relative;
+}
+
+.absence-day:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98px;
+    background-color: red;
+}
+
+.fc-bgevent {
+    opacity: 0.75!important;
+}
